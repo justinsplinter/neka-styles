@@ -1,7 +1,7 @@
 /*STYLE GUIDE PAGE*/
 
 body {
-    font-family: Futura Lt BT, sans-serif;
+    font-family: futura-pt, sans-serif;
     font-weight: 300;
     font-style: normal;
 }
@@ -19,6 +19,8 @@ header, section {
 
 a {
     color: #007FAD;
+    font-family: futura-pt, sans-serif;
+    font-weight: 800;
 }
 
 a:hover {
@@ -76,15 +78,16 @@ h3 {
 }
 
 /*h4 {*/
-    /*font-size: 30px;*/
+    /*font-size: 28px;*/
     /*letter-spacing: -0.7px;*/
     /*line-height: 50px;*/
 /*}*/
 
 h4 {
-    font-size: calc(25px + 0.1vw);
-    letter-spacing: calc(-0.5px);
+    font-size: calc(26px + 0.3vw);
+    letter-spacing: calc(-0.3px);
     line-height: calc(40px + 0.6vw);
+    font-weight: 300;
 }
 
 /*h5 {*/
@@ -115,8 +118,9 @@ h6 {
 }
 
 p {
-    font-size: calc(20px + 0.1vw);
+    font-size: calc(22px + 0.2vw);
     letter-spacing: -0.3px;
+
 }
 
 .bold {
