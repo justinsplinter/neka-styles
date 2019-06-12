@@ -1,5 +1,6 @@
-body {
+/*STYLE GUIDE PAGE*/
 
+body {
     font-family: Futura Lt BT, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -10,12 +11,11 @@ header, section {
     padding-bottom: 5%;
 }
 
-
-
-
 .container {
     max-width: 1400px;
 }
+
+/*LINKS*/
 
 a {
     color: #007FAD;
@@ -38,11 +38,7 @@ hr {
     border-top: 1px solid #9fc54d;
 }
 
-/*h1 {*/
-    /*font-size: 90px;*/
-    /*letter-spacing: -3px;*/
-    /*line-height:  85px;*/
-/*}*/
+/*TYPOGRAPHY*/
 
 h1 {
     font-size: calc(42px + 3vw);
@@ -50,10 +46,13 @@ h1 {
     letter-spacing: calc(-3px);
 }
 
-.bold {
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
-}
+
+/*h1 {*/
+/*font-size: 90px;*/
+/*letter-spacing: -3px;*/
+/*line-height:  85px;*/
+/*}*/
+
 
 /*h2 {*/
     /*font-size: 60px;*/
@@ -88,6 +87,15 @@ h4 {
     line-height: calc(40px + 0.6vw);
 }
 
+/*h5 {*/
+    /*font-size: 18px;*/
+    /*letter-spacing: 10px;*/
+    /*color: grey;*/
+    /*text-transform: uppercase;*/
+    /*font-family: futura-pt, sans-serif;*/
+    /*font-weight: 600;*/
+/*}*/
+
 h5 {
     font-size: calc(18px + 0.2vw);
     /*font-size: 18px;*/
@@ -109,8 +117,16 @@ h6 {
 p {
     font-size: calc(20px + 0.1vw);
     letter-spacing: -0.3px;
-
 }
+
+.bold {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+}
+
+
+
+/*COLORS*/
 
 .cyan {background-color: #009DD6;}
 .dark-cyan {background-color: #007FAD;}
@@ -121,12 +137,14 @@ p {
 .red {background-color: #e41e30;}
 .green2 {background-color: #8dc640;}
 .grey {background-color: #808080;}
-
 .green-text {color: #07a855;}
 .cyan-text {color: #009DD6;}
-
-
 .white {color: white;}
+
+
+
+
+/*BUTTONS*/
 
 button {
     background-color: white;
